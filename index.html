@@ -128,7 +128,81 @@
 
     <section id="contact">
       <h2>Contact</h2>
+      <p>Get in touch with me using the form below. I'll be happy to hear from you!</p>
+      
+      <form action="#" method="POST">
+        <fieldset>
+          <legend>Contact Information</legend>
+          
+          <div>
+            <label for="fullname">Full Name <span aria-label="required">*</span></label>
+            <input 
+              type="text" 
+              id="fullname" 
+              name="fullname" 
+              placeholder="Enter your full name" 
+              required
+              aria-required="true"
+            >
+          </div>
+
+          <div>
+            <label for="email">Email Address <span aria-label="required">*</span></label>
+            <input 
+              type="email" 
+              id="email" 
+              name="email" 
+              placeholder="Enter your email address" 
+              required
+              aria-required="true"
+            >
+          </div>
+
+          <div>
+            <label for="phone">Phone Number <span aria-label="required">*</span></label>
+            <input 
+              type="tel" 
+              id="phone" 
+              name="phone" 
+              placeholder="Enter your phone number" 
+              required
+              aria-required="true"
+            >
+          </div>
+
+          <div>
+            <label for="subject">Subject <span aria-label="required">*</span></label>
+            <input 
+              type="text" 
+              id="subject" 
+              name="subject" 
+              placeholder="What is this about?" 
+              required
+              aria-required="true"
+            >
+          </div>
+
+          <div>
+            <label for="message">Message <span aria-label="required">*</span></label>
+            <textarea 
+              id="message" 
+              name="message" 
+              rows="6" 
+              placeholder="Enter your message here..." 
+              required
+              aria-required="true"
+            ></textarea>
+          </div>
+        </fieldset>
+
+        <div>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+
       <address>
+        <p>You can also reach me directly:</p>
         <p>Email: <a href="mailto:aryanrajssm2005@gmail.com">aryanrajssm2005@gmail.com</a></p>
         <p>Phone: <a href="tel:9973041416">9973041416</a></p>
         <p><a href="#">GitHub</a></p>
