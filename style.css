@@ -1,0 +1,230 @@
+/* ========== RESET & BASE ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* ========== HEADER ========== */
+header {
+  background-color: #1f2933;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1rem;
+}
+
+/* ========== NAVIGATION ========== */
+nav {
+  background-color: #111827;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav li {
+  margin: 0.5rem 1rem;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ========== MAIN LAYOUT ========== */
+main {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* ========== SECTIONS ========== */
+section {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+  color: #1f2933;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 0.5rem;
+}
+
+/* ========== SKILLS FLEX GRID ========== */
+#skills {
+  display: flex;
+  flex-direction: column;
+}
+
+#skills article {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+#skills li {
+  list-style: none;
+  background-color: #e5e7eb;
+  padding: 0.4rem 0.7rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+/* ========== PROJECTS ========== */
+#projects article {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#projects a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#projects a:hover {
+  text-decoration: underline;
+}
+
+/* ========== EDUCATION & CERTIFICATIONS ========== */
+#certifications ul,
+#projects ul {
+  margin-left: 1.2rem;
+}
+
+/* ========== CONTACT FORM ========== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+fieldset {
+  border: 1px solid #d1d5db;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+legend {
+  font-weight: bold;
+  padding: 0 0.5rem;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.8rem;
+}
+
+label {
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
+}
+
+/* ========== FORM BUTTONS ========== */
+form > div:last-child {
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  padding: 0.6rem 1.5rem;
+  border: none;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="reset"] {
+  background-color: #6b7280;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* ========== ADDRESS ========== */
+address {
+  margin-top: 1.5rem;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+address a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+address a:hover {
+  text-decoration: underline;
+}
+
+/* ========== FOOTER ========== */
+footer {
+  background-color: #111827;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main {
+    padding: 0 0.8rem;
+  }
+}
