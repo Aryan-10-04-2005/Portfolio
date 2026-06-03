@@ -30,190 +30,107 @@
       <p>Computer Science undergraduate with knowledge of programming, web development, Linux systems, Git, and databases. Experienced in academic and personal projects using JavaScript, Python, and MongoDB. Strong problem-solving, documentation, and analytical skills. Interested in entry-level roles in operations, technical support, software support, or process management.</p>
     </section>
 
-    <section id="skills">
-      <h2>Technical Skills</h2>
-      <article>
-        <h3>Programming Languages</h3>
-        <ul>
-          <li>JavaScript</li>
-          <li>Python</li>
-          <li>C</li>
-        </ul>
-      </article>
-      <article>
-        <h3>Frontend</h3>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Bootstrap</li>
-        </ul>
-      </article>
-      <article>
-        <h3>Backend</h3>
-        <ul>
-          <li>Node.js</li>
-          <li>Python</li>
-        </ul>
-      </article>
-      <article>
-        <h3>Databases</h3>
-        <ul>
-          <li>MongoDB</li>
-        </ul>
-      </article>
-      <article>
-        <h3>Tools & Operating Systems</h3>
-        <ul>
-          <li>Windows</li>
-          <li>Linux</li>
-          <li>Git</li>
-          <li>GitHub</li>
-          <li>GitHub Desktop</li>
-          <li>Figma</li>
-          <li>MS Excel</li>
-        </ul>
-      </article>
-    </section>
-
-    <section id="projects">
-      <h2>Projects</h2>
-      <article>
-        <h3>Web Extension – Productivity Tool</h3>
-        <p><a href="#" aria-label="GitHub placeholder link for Web Extension project">GitHub</a></p>
-        <ul>
-          <li>Developed a browser extension using HTML, CSS, and JavaScript.</li>
-          <li>Implemented DOM manipulation, event handling, and local storage.</li>
-          <li>Added task tracking and reminder functionality.</li>
-          <li>Used GitHub for version control and documentation.</li>
-        </ul>
-      </article>
-      <article>
-        <h3>Suggestions Bot</h3>
-        <p><a href="#" aria-label="GitHub placeholder link for Suggestions Bot project">GitHub</a></p>
-        <ul>
-          <li>Built a recommendation tool based on user interaction logic.</li>
-          <li>Stored user data and suggestions using MongoDB.</li>
-          <li>Designed UI and logical flow for usability.</li>
-          <li>Implemented backend logic using JavaScript.</li>
-        </ul>
-      </article>
-      <article>
-        <h3>Converter Application</h3>
-        <p><a href="#" aria-label="GitHub placeholder link for Converter Application project">GitHub</a></p>
-        <ul>
-          <li>Created a converter application with input validation and calculation logic.</li>
-          <li>Implemented multiple unit conversions and error handling.</li>
-          <li>Focused on debugging and clean user interface.</li>
-        </ul>
-      </article>
-    </section>
-
-    <section id="education">
-      <h2>Education</h2>
-      <article>
-        <h3>Bachelor of Technology in Computer Science and Engineering</h3>
-        <p>Biju Patnaik University of Technology</p>
-        <p>CGPA: 6.5 / 10</p>
-        <p>2023 – 2026</p>
-      </article>
-    </section>
-
-    <section id="certifications">
-      <h2>Certifications</h2>
-      <ul>
-        <li>Scrimba – Frontend Development Certificate</li>
-        <li>Scrimba – JavaScript Certificate</li>
-      </ul>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Get in touch with me using the form below. I'll be happy to hear from you!</p>
-      
-      <form action="#" method="POST">
-        <fieldset>
-          <legend>Contact Information</legend>
-          
-          <div>
-            <label for="fullname">Full Name <span aria-label="required">*</span></label>
-            <input 
-              type="text" 
-              id="fullname" 
-              name="fullname" 
-              placeholder="Enter your full name" 
-              required
-              aria-required="true"
-            >
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>My Portfolio</title>
+      <link rel="stylesheet" href="style.css" />
+      <script defer src="script.js"></script>
+    </head>
+    <body>
+      <header class="site-header">
+        <div class="container header-inner">
+          <h1 class="logo">My Portfolio</h1>
+          <div class="header-controls">
+            <div id="datetime" class="datetime" aria-live="polite"></div>
+            <button id="themeToggle" class="btn">Toggle Theme</button>
           </div>
-
-          <div>
-            <label for="email">Email Address <span aria-label="required">*</span></label>
-            <input 
-              type="email" 
-              id="email" 
-              name="email" 
-              placeholder="Enter your email address" 
-              required
-              aria-required="true"
-            >
-          </div>
-
-          <div>
-            <label for="phone">Phone Number <span aria-label="required">*</span></label>
-            <input 
-              type="tel" 
-              id="phone" 
-              name="phone" 
-              placeholder="Enter your phone number" 
-              required
-              aria-required="true"
-            >
-          </div>
-
-          <div>
-            <label for="subject">Subject <span aria-label="required">*</span></label>
-            <input 
-              type="text" 
-              id="subject" 
-              name="subject" 
-              placeholder="What is this about?" 
-              required
-              aria-required="true"
-            >
-          </div>
-
-          <div>
-            <label for="message">Message <span aria-label="required">*</span></label>
-            <textarea 
-              id="message" 
-              name="message" 
-              rows="6" 
-              placeholder="Enter your message here..." 
-              required
-              aria-required="true"
-            ></textarea>
-          </div>
-        </fieldset>
-
-        <div>
-          <button type="submit">Submit</button>
-          <button type="reset">Reset</button>
         </div>
-      </form>
+      </header>
 
-      <address>
-        <p>You can also reach me directly:</p>
-        <p>Email: <a href="mailto:aryanrajssm2005@gmail.com">aryanrajssm2005@gmail.com</a></p>
-        <p>Phone: <a href="tel:9973041416">9973041416</a></p>
-        <p><a href="#">GitHub</a></p>
-        <p><a href="#">LinkedIn</a></p>
-      </address>
-    </section>
-  </main>
+      <main>
+        <section class="hero">
+          <div class="container hero-inner">
+            <div class="hero-text">
+              <h2 id="welcomeText">Welcome to My Portfolio</h2>
+              <p class="lead">A modern, responsive portfolio demo with interactive features.</p>
+              <div class="hero-actions">
+                <button id="welcomeBtn" class="btn primary">Change Welcome</button>
+                <a href="#projects" class="btn outline">See Projects</a>
+              </div>
+            </div>
+            <div class="hero-image">
+              <div class="profile-card">A</div>
+            </div>
+          </div>
+        </section>
 
-  <footer>
-    <p>© Aryan Raj</p>
-  </footer>
-</body>
-</html>
+        <section id="about" class="about container">
+          <h3>About Me</h3>
+          <p>I'm a developer building clean interfaces and interactive web experiences. This portfolio demonstrates basic DOM features and responsive design.</p>
+        </section>
+
+        <section id="skills" class="skills container">
+          <h3>Skills</h3>
+          <div class="skills-grid" id="skillsGrid">
+            <button class="skill-card" data-desc="JavaScript: DOM manipulation, ES6+, async, and event-driven code.">JavaScript</button>
+            <button class="skill-card" data-desc="HTML & CSS: Semantic markup, responsive layouts, Flexbox and Grid.">HTML/CSS</button>
+            <button class="skill-card" data-desc="React: Component-based UIs, hooks, and state management.">React</button>
+            <button class="skill-card" data-desc="Node.js: Backend services, APIs, and tooling.">Node.js</button>
+          </div>
+          <div id="skillDesc" class="skill-desc">Click a skill to see a short description.</div>
+        </section>
+
+        <section id="projects" class="projects container">
+          <h3>Projects</h3>
+          <div class="projects-grid">
+            <article class="project-card">
+              <h4>Project One</h4>
+              <p>Brief description of a project showcasing layout and interaction.</p>
+            </article>
+            <article class="project-card">
+              <h4>Project Two</h4>
+              <p>Another sample project demonstrating responsiveness.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="contact" class="contact container">
+          <h3>Contact</h3>
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+              <span class="error" id="nameError"></span>
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+              <span class="error" id="emailError"></span>
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" maxlength="500"></textarea>
+              <div class="message-meta">
+                <span id="charCount">0 / 500</span>
+                <span class="error" id="messageError"></span>
+              </div>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn primary">Send Message</button>
+            </div>
+          </form>
+        </section>
+      </main>
+
+      <button id="scrollTopBtn" class="scroll-top" aria-label="Scroll to top">↑</button>
+
+      <footer class="site-footer">
+        <div class="container">© <span id="year"></span> My Portfolio</div>
+      </footer>
+    </body>
+    </html>
+          <legend>Contact Information</legend>
